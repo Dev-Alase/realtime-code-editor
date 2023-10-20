@@ -21,6 +21,8 @@ const Home = () => {
             return;
         }
 
+        document.querySelector("#canvas_banner").style.display = "none";
+
         // Redirect
         navigate(`/editor/${roomId}`, {
             state: {

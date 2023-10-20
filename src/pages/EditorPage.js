@@ -84,6 +84,7 @@ const EditorPage = () => {
     }
 
     function leaveRoom() {
+        document.querySelector("#canvas_banner").style.display = "block";
         reactNavigator('/');
     }
 
